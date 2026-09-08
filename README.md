@@ -42,14 +42,27 @@ It should be viewed as a research implementation rather than a definitive interp
 # Repository Structure
 
 ```text
-SMC-Market-Structure-Toolkit/
+smc_trading_tools/
 │
-├── config.py
-├── data_loader.py
-├── market_structure.py
-├── liquidity.py
+├── assets/
+│   ├── eurusd_labeled_swings_example.jpg
+│   ├── eurusd_structure_with_bos_example.jpg
+│   ├── eurusd_swept_liquidity_example.jpg
+│   └── eurusd_valid_liquidity_example.jpg
+│
+├── data/
+│   └── eurusd_h1_2019_2022_sample.csv
+│
+├── src/
+│   ├── config.py
+│   ├── data_loader.py
+│   ├── liquidity.py
+│   ├── market_structure.py
+│   └── README.md
+│
+├── .gitignore
 ├── README.md
-└── ...
+└── requirements.txt
 ```
 
 ### `config.py`
