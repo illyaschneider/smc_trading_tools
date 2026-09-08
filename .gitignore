@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+
+# Generated CSV files
+*.csv
+
+# Keep bundled sample dataset
+!data/eurusd_h1_2019_2022_sample.csv
+
+# Local outputs
+outputs/
+results/
+research_results/
+
+# Jupyter
+.ipynb_checkpoints/
